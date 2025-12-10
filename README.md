@@ -3,6 +3,10 @@ A simple and customizable password generator written in C.
 
 ---
 
+---
+   Download EXE: https://github.com/heqoN/password-generation-tool/releases/latest
+---
+
 ##  Features
 - Generate any number of passwords  
 - Choose password length  
