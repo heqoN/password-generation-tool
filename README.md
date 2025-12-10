@@ -4,6 +4,7 @@ A simple and customizable password generator written in C.
 ---
 
 ---
+   İf you dont want to compile it 
    Download EXE: https://github.com/heqoN/password-generation-tool/releases/latest
 ---
 
