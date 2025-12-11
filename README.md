@@ -12,6 +12,10 @@ The program includes the following features:
 
 ---
 
+ İf you dont want to compile it 
+ ! Instead of downloading the .exe, I recommend compiling the C source file yourself.
+   Download EXE: https://github.com/heqoN/password-generation-tool/releases/latest
+
 ## 📌 Features
 
 ### **1. Password Generator**
