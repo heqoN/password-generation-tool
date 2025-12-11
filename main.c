@@ -159,7 +159,7 @@ int encryptPassword(void){
 
     len = strlen(input);
 
-    // XOR
+    
     for (int i = 0; i < len; i++) {
         encrypted[i] = input[i] ^ key[i % strlen(key)];
     }
@@ -170,7 +170,7 @@ int encryptPassword(void){
     }
     printf("\n");
 
-    printf("Password length = %d\n", len); // decrypt'te lazım
+    printf("Password length = %d\n", len);
 
     printf("Enter for continue ...");
     getchar();
@@ -191,10 +191,10 @@ int decryptPassword(void){
     scanf("%d", &len);
 
     printf("Enter encrypted password (hex) >> ");
-    getchar(); // tampon temizle
+    getchar(); 
     fgets(hexInput, sizeof(hexInput), stdin);
 
-    // hex -> bytes
+    
     for (int i = 0; i < len; i++) {
         unsigned int val;
         sscanf(&hexInput[i * 3], "%02X", &val);
@@ -204,12 +204,12 @@ int decryptPassword(void){
     printf("Enter your key >> ");
     scanf("%9s", key);
 
-    // decrypt XOR
+    
     for (int i = 0; i < len; i++) {
         decrypted[i] ^= key[i % strlen(key)];
     }
 
-    decrypted[len] = '\0'; // string haline getir
+    decrypted[len] = '\0'; 
 
     printf("Your password = %s\n\n", decrypted);
 
@@ -245,3 +245,4 @@ int main(void)
             errorr("wrong input"); 
     }
 }
+
