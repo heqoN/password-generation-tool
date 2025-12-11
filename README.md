@@ -63,20 +63,20 @@ The XOR operation is reversed and the original password is displayed.
 To compile the program:
 
 ```bash
-gcc program.c -o program
+gcc main.c -o pgaep
 ```
 
 Run it with:
 
 ```bash
-./program
+./pgaep
 ```
 
 On Windows:
 
 ```bash
-gcc program.c -o program.exe
-program.exe
+gcc main.c -o pgaep.exe
+pgaep.exe
 ```
 
 ---
